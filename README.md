@@ -53,12 +53,10 @@ Each row represents a 3D conformation of a molecule. Molecules with at least one
 5. **Comparison**
    - Analyze metrics before and after feature selection
 
-## Requirements
+6. ## Results:
+             Model_Accuracy	  recall	    F1 score
+KNN Classifier	0.9160	      0.9231	     0.9057
+Random Forest  	0.9496	      0.9615	     0.9434
+SVM           	0.9076	      0.9615	     0.9009
 
-- Python 3.x
-- pandas, numpy, matplotlib, seaborn
-- scikit-learn
 
-Install dependencies:
-```bash
-pip install -r requirements.txt
